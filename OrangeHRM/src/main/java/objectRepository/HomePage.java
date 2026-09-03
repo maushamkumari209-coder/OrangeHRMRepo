@@ -43,6 +43,9 @@ public class HomePage extends genericUtility.WebDriverUtility {
 	    @FindBy(linkText="Campaigns")
 	    private WebElement campaignslnk;
 	    
+	    @FindBy(linkText="Campaignss")
+	    private WebElement campaignslnk1;
+	    
 	    @FindBy(linkText="More")
 	    private WebElement morelnk;
 	    
@@ -99,6 +102,10 @@ public class HomePage extends genericUtility.WebDriverUtility {
 
 		public WebElement getCampaignslnk() {
 			return campaignslnk;
+		}
+		
+		public WebElement getCampaignslnk1() {
+			return campaignslnk1;
 		}
 
 
